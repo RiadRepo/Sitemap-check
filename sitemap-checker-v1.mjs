@@ -2,9 +2,9 @@ import axios from "axios";
 import { XMLParser } from "fast-xml-parser";
 import chalk from "chalk";
 
-const sitemapIndexUrl = "https://right2drivestg.wpengine.com/page-sitemap.xml";
-const newBaseUrl = "https://r2d-au.vercel.app";
-const skipPatterns = ["/articles/"];
+const sitemapIndexUrl = "existing url/page-sitemap.xml";
+const newBaseUrl = "testing url";
+const skipPatterns = ["/articles/"]; // skip url
 
 const parser = new XMLParser({
   ignoreAttributes: false,
